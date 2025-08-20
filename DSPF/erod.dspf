@@ -1,0 +1,39 @@
+     A*%%TS  SD  20250819  140328  WUSR2224    REL-V7R2M0  5770-WDS             
+     A*%%EC                                                                     
+     A                                      DSPSIZ(24 80 *DS3)                  
+     A          R EKRAN1                                                        
+     A*%%TS  SD  20250819  135635  WUSR2224    REL-V7R2M0  5770-WDS             
+     A                                      CA03(03 'EXIT')                     
+     A                                  1 26'CUSTOMER PAGE'                     
+     A                                      DSPATR(HI)                          
+     A                                      COLOR(RED)                          
+     A                                      DSPATR(UL)                          
+     A                                  7 12'CUSTOMER COD:'                     
+     A                                      COLOR(GRN)                          
+     A                                      DSPATR(HI)                          
+     A            NO             5S 0B  7 26                                    
+     A            MSGACK        50   O 23  3DSPATR(HI)                          
+     A                                      COLOR(RED)                          
+     A                                 22  1'F3'                                
+     A                                 22  4':'                                 
+     A                                 22  6'EXIT'                              
+     A          R EKRAN2                                                        
+     A*%%TS  SD  20250819  140328  WUSR2224    REL-V7R2M0  5770-WDS             
+     A                                      CA03(03 'EXIT')                     
+     A                                  1 26'CUSTOMER PAGE'                     
+     A                                      DSPATR(HI)                          
+     A                                      COLOR(RED)                          
+     A                                      DSPATR(UL)                          
+     A                                  7 12'CUSTOMER COD:'                     
+     A                                      COLOR(GRN)                          
+     A                                      DSPATR(HI)                          
+     A            NO             5S 0O  7 26                                    
+     A                                 11 12'AD..........:'                     
+     A                                      COLOR(YLW)                          
+     A                                 13 12'SOYAD.......:'                     
+     A                                      COLOR(YLW)                          
+     A            AD            10A  O 11 26COLOR(PNK)                          
+     A            SOYAD         10A  O 13 26COLOR(PNK)                          
+     A                                 22  1'F3'                                
+     A                                 22  4':'                                 
+     A                                 22  6'EXIT'                              
